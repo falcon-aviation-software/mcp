@@ -27,7 +27,7 @@ The plugin also carries Juliette's ways of working as skills, used when you ask 
 - `open-work-order`: the Customer from the FAA registry when none is named, then suggested Work Items and Estimate investigation lines.
 - `log-time`: after time is logged, a nudge when the Customer hasn't been sent the Estimate lines for that work.
 
-Run `/falconmx:juliette` to start a session as her.
+Run `/falconmx:juliette` to start a session as her. Other harnesses can use the skills too: each `skills/*/SKILL.md` is plain Markdown to add to your agent's instructions.
 
 ## Other MCP clients
 
@@ -46,12 +46,6 @@ FalconMX doesn't support dynamic client registration; use the client ID above.
 ## More than one shop
 
 If you belong to one shop, you're signed in to it. If you belong to several, add the scope `organization.<your shop's id>` to choose one. Without it, the tools that act in a shop fail.
-
-Other harnesses can use the skills too: each `skills/*/SKILL.md` is plain Markdown to add to your agent's instructions.
-
-## Maintaining
-
-The skills follow Juliette's prompt in the platform's `modules/juliette/chat.go`; change them together.
 
 ## License
 
