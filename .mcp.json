@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "falconmx": {
+      "type": "http",
+      "url": "https://api.falconmx.app/mcp",
+      "oauth": {
+        "clientId": "falconmx-mcp",
+        "callbackPort": 33418
+      }
+    }
+  }
+}

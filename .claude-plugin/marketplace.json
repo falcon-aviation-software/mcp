@@ -1,0 +1,14 @@
+{
+  "name": "falconmx",
+  "description": "FalconMX's public plugin for pointing your own agent at the FalconMX platform.",
+  "owner": {
+    "name": "Falcon Aviation Software"
+  },
+  "plugins": [
+    {
+      "name": "falconmx",
+      "source": "./",
+      "description": "FalconMX's MCP server, signed in as you."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "falconmx",
+  "description": "FalconMX for your own agent: work orders, aircraft records, ADs, estimates and invoices as MCP tools, acting as you in your shop.",
+  "homepage": "https://falconmx.app",
+  "version": "0.1.0",
+  "author": {
+    "name": "Falcon Aviation Software"
+  },
+  "privacyPolicyUrl": "https://falconmx.app/privacy",
+  "license": "MPL-2.0"
+}
